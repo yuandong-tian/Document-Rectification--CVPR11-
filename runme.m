@@ -1,8 +1,8 @@
 addpath('./forpublish');
 
 rs_new2 = {};
-load ../intemediate/result_camera_ready_Mar23.mat; 
-load ../intemediate/camera_ready_smallimages.mat;
+load ./intemediate/result_camera_ready_Mar23.mat; 
+load ./intemediate/camera_ready_smallimages.mat;
 
 % tracing parameters...
 % optionsTracing = struct('patchSize', 21, 'nAngle', 30, 'step', 3, 'nHistory', 15, 'lambda', 0.001, 'nPoint', 100, 'accessRegion', accessRegion);
