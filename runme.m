@@ -1,6 +1,7 @@
 addpath('./forpublish');
 
 rs_new2 = {};
+% Please run ./download.sh to obtain the two mat files.
 load ./intemediate/result_camera_ready_Mar23.mat; 
 load ./intemediate/camera_ready_smallimages.mat;
 
