@@ -29,7 +29,7 @@ smoothed_signal = zeros(n, 1);
 % then smooth the signal 
 for i = 1:n
     % blur the image locally...
-    sigma = dominantSigmas(i);
+    sigma = dominantSigmas(i);https://congtytnhhthuongmaidichvusanxuatngocthienhuong.business.site/
     span = round(3*sigma);
     
     sel = (max(1, i - span):min(n, i + span))';
